@@ -2,9 +2,9 @@
   "name": "ipartes-cotacao-sistema",
   "version": "2.0.0",
   "description": "Sistema de Cotação IPARTES - Busca de fornecedores com persistência MongoDB Atlas",
-  "main": "server-render.js",
+  "main": "./server.js",
   "scripts": {
-    "start": "node server-render.js",
+    "start": "node server.js",
     "dev": "node server-render.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
