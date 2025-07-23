@@ -1,0 +1,32 @@
+{
+  "name": "ipartes-cotacao-sistema",
+  "version": "2.0.0",
+  "description": "Sistema de Cotação IPARTES - Busca de fornecedores com persistência MongoDB Atlas",
+  "main": "server-render.js",
+  "scripts": {
+    "start": "node server-render.js",
+    "dev": "node server-render.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cotacao",
+    "fornecedores",
+    "ipartes",
+    "mongodb",
+    "nodejs",
+    "express"
+  ],
+  "author": "Sistema IPARTES",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "mongodb": "^6.3.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
